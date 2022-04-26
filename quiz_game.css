@@ -1,0 +1,56 @@
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+#Number1 , #Number2{
+	display: inline-block;
+    width: 70%;
+}
+
+.margin {
+    margin-left: -100px;
+}
+
+#paragraph {
+    font-family: cursive;
+    color: #070040;  
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+img {
+width: 300px;
+height: 300px;
+}
+
+
+body {
+font-family: monospace;
+color: black;
+}
+
+.split {
+height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.left {
+left: 0;
+width:70%;
+background:#B01D48;
+}
+
+.right {
+right: 0;
+width: 30%;
+background-color: #EDDC13;
+}

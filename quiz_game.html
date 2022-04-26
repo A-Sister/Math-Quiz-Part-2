@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+
+<script src="quiz_game.js"></script>
+    </head>
+    <body>
+        <div class="split left">
+            <h4 id="player1_name"></h4><span id="player1_score"></span>
+                <br>
+                <h4 id="player2_name"></h4><span id="player2_score"></span>
+                <div class="container margin">
+                    <center>
+                        <h1 style="color: white;">The Math Quiz!</h1>
+                        <h3 id="questionTurn"></h3>
+                        <h3 id="answerTurn"></h3>
+                        <div id="output" class="col-lg-6"></div>
+                        <br>
+                        <br>
+                        <h4>Number 1</h4>
+                        <input type="text" class="form-control" placeholder="Number 1" id="Number1">
+                        <br>
+                        <br>
+                        <h4>Number 2</h4>
+                        <input type="text" class="form-control" placeholder="Number 2" id="Number2">
+                        <br>
+                        <br>
+                        <button id="send" onclick = "send()" class="btn btn-success" style = "width: 30%;">Send</button>
+                    </center>
+                </div>
+          </div>
+          
+          <div class="split right">
+            <center>
+                <img src="Screen_Shot_2022-04-20_at_8.31.05_PM-removebg-preview.png">
+                <h1 id="title">Math Quiz</h1>
+                <p id="paragraph">Test yourself with a friend! Enter 2 numbers and click send. Try figuring out what the answer is to the equation. Good luck!</p>
+            </center>
+            </div>
+    </body>
+</html>

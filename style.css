@@ -1,0 +1,60 @@
+	.login_1 , .login_2 {
+        margin-left: 20px;
+		padding: 10px;
+		float: none;
+	}
+
+
+#Player1Name , #Player2Name
+{
+	display: inline-block;
+    width: 300%;
+}
+
+#title {
+    font-family: cursive;
+    font-size: 50px;
+    color: #070040;
+}
+
+#paragraph {
+    font-family: cursive;
+    font-size: 30px;
+    color: #070040;  
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#login {
+    margin-left: 30px;
+}
+
+body {
+    font-family: monospace;
+    color: black;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image: url("grunge-paint-background_1409-1337.webp");
+  }
+  
+  .right {
+    right: 0;
+    background-color: #EDDC13;
+  }
