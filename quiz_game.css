@@ -54,3 +54,7 @@ right: 0;
 width: 30%;
 background-color: #EDDC13;
 }
+
+#player1_name, #player2_name {
+    margin-left: 20px;
+}
